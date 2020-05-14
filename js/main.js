@@ -1,9 +1,9 @@
 class AudioController {
   constructor() {
-    this.bgMusic = new Audio('/start.mp3');
-    this.matchSound = new Audio('/pikachu.mp3');
-    this.victorySound = new Audio('/victory.mp3');
-    this.gameOverSound = new Audio('/lose.mp3');
+    this.bgMusic = new Audio('start.mp3');
+    this.matchSound = new Audio('pikachu.mp3');
+    this.victorySound = new Audio('victory.mp3');
+    this.gameOverSound = new Audio('lose.mp3');
     this.bgMusic.volume = 0.5;
     this.bgMusic.loop = true;
   }
